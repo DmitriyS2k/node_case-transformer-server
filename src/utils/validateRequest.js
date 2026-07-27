@@ -1,4 +1,4 @@
-const { ERRORS, CASES } = require('./constants/constants');
+const { ERRORS, CASES } = require('../constants/constants.js');
 
 const validateRequest = (text, toCase) => {
   const errors = [];
